@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://kg2025.unitn.it/trentino" uri="file:/C:/Users/tide2/Desktop/KG_TerritoryAndTourism_Trento/Phase%202%20-%20Language%20Definition/ltlo.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1769096084232" name="http://www.semanticweb.org/tide2/ontologies/2026/0/untitled-ontology-4/" uri="ktlo.owl"/>
+    </group>
+</catalog>
