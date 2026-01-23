@@ -1,0 +1,276 @@
+<http://localhost:8080/source/natural_attractions0> <http://kg2025.unitn.it/trentino#hasLongitude> "11.243889" .
+<http://localhost:8080/source/natural_attractions0> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Riserva Naturalistica del Laghestel" .
+<http://localhost:8080/source/natural_attractions0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions0> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop177" .
+<http://localhost:8080/source/natural_attractions0> <http://kg2025.unitn.it/trentino#hasLatitude> "46.129722" .
+
+<http://localhost:8080/source/natural_attractions1> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop179" .
+<http://localhost:8080/source/natural_attractions1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions1> <http://kg2025.unitn.it/trentino#hasLongitude> "11.256389" .
+<http://localhost:8080/source/natural_attractions1> <http://kg2025.unitn.it/trentino#hasLatitude> "46.140278" .
+<http://localhost:8080/source/natural_attractions1> <http://kg2025.unitn.it/trentino#hasName> "Giro Dos Alt - Cime Alte" .
+
+<http://localhost:8080/source/natural_attractions2> <http://kg2025.unitn.it/trentino#hasLatitude> "46.181111" .
+<http://localhost:8080/source/natural_attractions2> <http://kg2025.unitn.it/trentino#hasLongitude> "11.263333" .
+<http://localhost:8080/source/natural_attractions2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions2> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop237" .
+<http://localhost:8080/source/natural_attractions2> <http://kg2025.unitn.it/trentino#hasName> "Sentiero di Segonzano" .
+
+<http://localhost:8080/source/natural_attractions3> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop178" .
+<http://localhost:8080/source/natural_attractions3> <http://kg2025.unitn.it/trentino#hasLongitude> "11.249167" .
+<http://localhost:8080/source/natural_attractions3> <http://kg2025.unitn.it/trentino#hasLatitude> "46.134444" .
+<http://localhost:8080/source/natural_attractions3> <http://kg2025.unitn.it/trentino#hasName> "Giro dei Laghi" .
+<http://localhost:8080/source/natural_attractions3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions4> <http://kg2025.unitn.it/trentino#hasLongitude> "11.256437" .
+<http://localhost:8080/source/natural_attractions4> <http://kg2025.unitn.it/trentino#hasLatitude> "46.137857" .
+<http://localhost:8080/source/natural_attractions4> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop179" .
+<http://localhost:8080/source/natural_attractions4> <http://kg2025.unitn.it/trentino#hasName> "Lago di Serraia" .
+<http://localhost:8080/source/natural_attractions4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions5> <http://kg2025.unitn.it/trentino#hasLatitude> "46.141667" .
+<http://localhost:8080/source/natural_attractions5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions5> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop226" .
+<http://localhost:8080/source/natural_attractions5> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Lago di Lases - Lago di Santa Colomba" .
+<http://localhost:8080/source/natural_attractions5> <http://kg2025.unitn.it/trentino#hasLongitude> "11.218056" .
+
+<http://localhost:8080/source/natural_attractions6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions6> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop103" .
+<http://localhost:8080/source/natural_attractions6> <http://kg2025.unitn.it/trentino#hasLongitude> "11.300833" .
+<http://localhost:8080/source/natural_attractions6> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Monte Corno" .
+<http://localhost:8080/source/natural_attractions6> <http://kg2025.unitn.it/trentino#hasLatitude> "46.230556" .
+
+<http://localhost:8080/source/natural_attractions7> <http://kg2025.unitn.it/trentino#hasLongitude> "11.264444" .
+<http://localhost:8080/source/natural_attractions7> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Masi di Grumes - Cauria" .
+<http://localhost:8080/source/natural_attractions7> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop2335" .
+<http://localhost:8080/source/natural_attractions7> <http://kg2025.unitn.it/trentino#hasLatitude> "46.223611" .
+<http://localhost:8080/source/natural_attractions7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions8> <http://kg2025.unitn.it/trentino#hasLongitude> "11.253611" .
+<http://localhost:8080/source/natural_attractions8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions8> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop824" .
+<http://localhost:8080/source/natural_attractions8> <http://kg2025.unitn.it/trentino#hasName> "Dosso di Costalta" .
+<http://localhost:8080/source/natural_attractions8> <http://kg2025.unitn.it/trentino#hasLatitude> "46.125278" .
+
+<http://localhost:8080/source/natural_attractions9> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop824" .
+<http://localhost:8080/source/natural_attractions9> <http://kg2025.unitn.it/trentino#hasLongitude> "11.253611" .
+<http://localhost:8080/source/natural_attractions9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions9> <http://kg2025.unitn.it/trentino#hasLatitude> "46.125278" .
+<http://localhost:8080/source/natural_attractions9> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Monte Calvo" .
+
+<http://localhost:8080/source/natural_attractions10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions10> <http://kg2025.unitn.it/trentino#hasName> "Dosso di Segonzano - da Bedollo" .
+<http://localhost:8080/source/natural_attractions10> <http://kg2025.unitn.it/trentino#hasLatitude> "46.161111" .
+<http://localhost:8080/source/natural_attractions10> <http://kg2025.unitn.it/trentino#hasLongitude> "11.301944" .
+<http://localhost:8080/source/natural_attractions10> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop185" .
+
+<http://localhost:8080/source/natural_attractions11> <http://kg2025.unitn.it/trentino#hasName> "Lago Santo di Cembra" .
+<http://localhost:8080/source/natural_attractions11> <http://kg2025.unitn.it/trentino#hasLatitude> "46.196" .
+<http://localhost:8080/source/natural_attractions11> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop95" .
+<http://localhost:8080/source/natural_attractions11> <http://kg2025.unitn.it/trentino#hasLongitude> "11.207999" .
+<http://localhost:8080/source/natural_attractions11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions12> <http://kg2025.unitn.it/trentino#hasName> "Dos de la Mot" .
+<http://localhost:8080/source/natural_attractions12> <http://kg2025.unitn.it/trentino#hasLatitude> "46.108056" .
+<http://localhost:8080/source/natural_attractions12> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop832" .
+<http://localhost:8080/source/natural_attractions12> <http://kg2025.unitn.it/trentino#hasLongitude> "11.239444" .
+
+<http://localhost:8080/source/natural_attractions13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions13> <http://kg2025.unitn.it/trentino#hasLatitude> "46.140599" .
+<http://localhost:8080/source/natural_attractions13> <http://kg2025.unitn.it/trentino#hasLongitude> "11.22129" .
+<http://localhost:8080/source/natural_attractions13> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop226" .
+<http://localhost:8080/source/natural_attractions13> <http://kg2025.unitn.it/trentino#hasName> "Lago di Lases" .
+
+<http://localhost:8080/source/natural_attractions14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions14> <http://kg2025.unitn.it/trentino#hasLatitude> "46.1243633" .
+<http://localhost:8080/source/natural_attractions14> <http://kg2025.unitn.it/trentino#hasLongitude> "11.1806773" .
+<http://localhost:8080/source/natural_attractions14> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop218" .
+<http://localhost:8080/source/natural_attractions14> <http://kg2025.unitn.it/trentino#hasName> "Lago di Santa Colomba" .
+
+<http://localhost:8080/source/natural_attractions15> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop228" .
+<http://localhost:8080/source/natural_attractions15> <http://kg2025.unitn.it/trentino#hasLongitude> "11.193056" .
+<http://localhost:8080/source/natural_attractions15> <http://kg2025.unitn.it/trentino#hasName> "Trekking delle cave" .
+<http://localhost:8080/source/natural_attractions15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions15> <http://kg2025.unitn.it/trentino#hasLatitude> "46.1425" .
+
+<http://localhost:8080/source/natural_attractions16> <http://kg2025.unitn.it/trentino#hasLatitude> "46.175833" .
+<http://localhost:8080/source/natural_attractions16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions16> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Monte Corona" .
+<http://localhost:8080/source/natural_attractions16> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop84" .
+<http://localhost:8080/source/natural_attractions16> <http://kg2025.unitn.it/trentino#hasLongitude> "11.166667" .
+
+<http://localhost:8080/source/natural_attractions17> <http://kg2025.unitn.it/trentino#hasLatitude> "46.160278" .
+<http://localhost:8080/source/natural_attractions17> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop90" .
+<http://localhost:8080/source/natural_attractions17> <http://kg2025.unitn.it/trentino#hasName> "Sentiero Maderlina" .
+<http://localhost:8080/source/natural_attractions17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions17> <http://kg2025.unitn.it/trentino#hasLongitude> "11.186389" .
+
+<http://localhost:8080/source/natural_attractions18> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop178" .
+<http://localhost:8080/source/natural_attractions18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions18> <http://kg2025.unitn.it/trentino#hasLongitude> "11.245833" .
+<http://localhost:8080/source/natural_attractions18> <http://kg2025.unitn.it/trentino#hasLatitude> "46.135556" .
+<http://localhost:8080/source/natural_attractions18> <http://kg2025.unitn.it/trentino#hasName> "Passeggiata di Bedolpian" .
+
+<http://localhost:8080/source/natural_attractions19> <http://kg2025.unitn.it/trentino#hasLatitude> "46.13089" .
+<http://localhost:8080/source/natural_attractions19> <http://kg2025.unitn.it/trentino#hasLongitude> "11.20333" .
+<http://localhost:8080/source/natural_attractions19> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop1883" .
+<http://localhost:8080/source/natural_attractions19> <http://kg2025.unitn.it/trentino#hasName> "Pian del Gacc" .
+<http://localhost:8080/source/natural_attractions19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions20> <http://kg2025.unitn.it/trentino#hasLatitude> "46.175556" .
+<http://localhost:8080/source/natural_attractions20> <http://kg2025.unitn.it/trentino#hasLongitude> "11.223056" .
+<http://localhost:8080/source/natural_attractions20> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop118" .
+<http://localhost:8080/source/natural_attractions20> <http://kg2025.unitn.it/trentino#hasName> "Sentiero lago Santo" .
+
+<http://localhost:8080/source/natural_attractions21> <http://kg2025.unitn.it/trentino#hasLongitude> "11.299167" .
+<http://localhost:8080/source/natural_attractions21> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Val Regnana - Valle dei Mocheni" .
+<http://localhost:8080/source/natural_attractions21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions21> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop184" .
+<http://localhost:8080/source/natural_attractions21> <http://kg2025.unitn.it/trentino#hasLatitude> "46.159722" .
+
+<http://localhost:8080/source/natural_attractions22> <http://kg2025.unitn.it/trentino#hasLatitude> "46.160278" .
+<http://localhost:8080/source/natural_attractions22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions22> <http://kg2025.unitn.it/trentino#hasLongitude> "11.160278" .
+<http://localhost:8080/source/natural_attractions22> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop83" .
+<http://localhost:8080/source/natural_attractions22> <http://kg2025.unitn.it/trentino#hasName> "Sentiero Mancabrot e del lac de Montesel" .
+
+<http://localhost:8080/source/natural_attractions23> <http://kg2025.unitn.it/trentino#hasName> "Sentiero Val Regnana" .
+<http://localhost:8080/source/natural_attractions23> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop184" .
+<http://localhost:8080/source/natural_attractions23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions23> <http://kg2025.unitn.it/trentino#hasLongitude> "11.294444" .
+<http://localhost:8080/source/natural_attractions23> <http://kg2025.unitn.it/trentino#hasLatitude> "46.160278" .
+
+<http://localhost:8080/source/natural_attractions24> <http://kg2025.unitn.it/trentino#hasLongitude> "11.1822" .
+<http://localhost:8080/source/natural_attractions24> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0886" .
+<http://localhost:8080/source/natural_attractions24> <http://kg2025.unitn.it/trentino#hasName> "Ecomuseo dell'Argentario" .
+<http://localhost:8080/source/natural_attractions24> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop2592" .
+<http://localhost:8080/source/natural_attractions24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions25> <http://kg2025.unitn.it/trentino#hasLongitude> "11.3275" .
+<http://localhost:8080/source/natural_attractions25> <http://kg2025.unitn.it/trentino#hasLatitude> "46.217778" .
+<http://localhost:8080/source/natural_attractions25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions25> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Malga Vernera - Rifugio Vasoni" .
+<http://localhost:8080/source/natural_attractions25> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop141" .
+
+<http://localhost:8080/source/natural_attractions26> <http://kg2025.unitn.it/trentino#hasLongitude> "11.2258" .
+<http://localhost:8080/source/natural_attractions26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions26> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop175" .
+<http://localhost:8080/source/natural_attractions26> <http://kg2025.unitn.it/trentino#hasLatitude> "46.11487" .
+<http://localhost:8080/source/natural_attractions26> <http://kg2025.unitn.it/trentino#hasName> "Biotopo Laghestel" .
+
+<http://localhost:8080/source/natural_attractions27> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop824" .
+<http://localhost:8080/source/natural_attractions27> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Malga Stramaiolo" .
+<http://localhost:8080/source/natural_attractions27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions27> <http://kg2025.unitn.it/trentino#hasLatitude> "46.126111" .
+<http://localhost:8080/source/natural_attractions27> <http://kg2025.unitn.it/trentino#hasLongitude> "11.253889" .
+
+<http://localhost:8080/source/natural_attractions28> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Roccolo del Sauch" .
+<http://localhost:8080/source/natural_attractions28> <http://kg2025.unitn.it/trentino#hasLatitude> "46.175556" .
+<http://localhost:8080/source/natural_attractions28> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop84" .
+<http://localhost:8080/source/natural_attractions28> <http://kg2025.unitn.it/trentino#hasLongitude> "11.166667" .
+<http://localhost:8080/source/natural_attractions28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions29> <http://kg2025.unitn.it/trentino#hasLongitude> "11.205278" .
+<http://localhost:8080/source/natural_attractions29> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop95" .
+<http://localhost:8080/source/natural_attractions29> <http://kg2025.unitn.it/trentino#hasLatitude> "46.196944" .
+<http://localhost:8080/source/natural_attractions29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions29> <http://kg2025.unitn.it/trentino#hasName> "Itinerario Lago Santo - Passo Potzmauer" .
+
+<http://localhost:8080/source/natural_attractions30> <http://kg2025.unitn.it/trentino#hasLongitude> "11.265833" .
+<http://localhost:8080/source/natural_attractions30> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop101" .
+<http://localhost:8080/source/natural_attractions30> <http://kg2025.unitn.it/trentino#hasName> "Itinerario lago di Valda - Castion" .
+<http://localhost:8080/source/natural_attractions30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions30> <http://kg2025.unitn.it/trentino#hasLatitude> "46.207778" .
+
+<http://localhost:8080/source/natural_attractions31> <http://kg2025.unitn.it/trentino#hasLongitude> "11.300833" .
+<http://localhost:8080/source/natural_attractions31> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop103" .
+<http://localhost:8080/source/natural_attractions31> <http://kg2025.unitn.it/trentino#hasLatitude> "46.230556" .
+<http://localhost:8080/source/natural_attractions31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions31> <http://kg2025.unitn.it/trentino#hasName> "Sentiero dei Vecchi Mestieri" .
+
+<http://localhost:8080/source/natural_attractions32> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop182" .
+<http://localhost:8080/source/natural_attractions32> <http://kg2025.unitn.it/trentino#hasLatitude> "46.153711" .
+<http://localhost:8080/source/natural_attractions32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions32> <http://kg2025.unitn.it/trentino#hasName> "Lago delle Piazze" .
+<http://localhost:8080/source/natural_attractions32> <http://kg2025.unitn.it/trentino#hasLongitude> "11.278925" .
+
+<http://localhost:8080/source/natural_attractions33> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop178" .
+<http://localhost:8080/source/natural_attractions33> <http://kg2025.unitn.it/trentino#hasLatitude> "46.134167" .
+<http://localhost:8080/source/natural_attractions33> <http://kg2025.unitn.it/trentino#hasName> "Itinerario lago di Serraia - lago delle Piazze" .
+<http://localhost:8080/source/natural_attractions33> <http://kg2025.unitn.it/trentino#hasLongitude> "11.249167" .
+<http://localhost:8080/source/natural_attractions33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions34> <http://kg2025.unitn.it/trentino#hasLatitude> "46.18175" .
+<http://localhost:8080/source/natural_attractions34> <http://kg2025.unitn.it/trentino#hasName> "Piramidi di Terra di Segonzano" .
+<http://localhost:8080/source/natural_attractions34> <http://kg2025.unitn.it/trentino#hasLongitude> "11.269611" .
+<http://localhost:8080/source/natural_attractions34> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop237" .
+
+<http://localhost:8080/source/natural_attractions35> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop237" .
+<http://localhost:8080/source/natural_attractions35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions35> <http://kg2025.unitn.it/trentino#hasName> "Dosso di Segonzano - da Segonzano" .
+<http://localhost:8080/source/natural_attractions35> <http://kg2025.unitn.it/trentino#hasLatitude> "46.180833" .
+<http://localhost:8080/source/natural_attractions35> <http://kg2025.unitn.it/trentino#hasLongitude> "11.263611" .
+
+<http://localhost:8080/source/natural_attractions36> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop226" .
+<http://localhost:8080/source/natural_attractions36> <http://kg2025.unitn.it/trentino#hasLatitude> "46.142994" .
+<http://localhost:8080/source/natural_attractions36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions36> <http://kg2025.unitn.it/trentino#hasName> "Biotopo Lona Lases e buche del ghiaccio" .
+<http://localhost:8080/source/natural_attractions36> <http://kg2025.unitn.it/trentino#hasLongitude> "11.222609" .
+
+<http://localhost:8080/source/natural_attractions37> <http://kg2025.unitn.it/trentino#hasName> "Sorgente Ferruginosa" .
+<http://localhost:8080/source/natural_attractions37> <http://kg2025.unitn.it/trentino#hasLatitude> "46.125278" .
+<http://localhost:8080/source/natural_attractions37> <http://kg2025.unitn.it/trentino#hasLongitude> "11.253889" .
+<http://localhost:8080/source/natural_attractions37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions37> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop824" .
+
+<http://localhost:8080/source/natural_attractions38> <http://kg2025.unitn.it/trentino#hasLongitude> "11.300278" .
+<http://localhost:8080/source/natural_attractions38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions38> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop186" .
+<http://localhost:8080/source/natural_attractions38> <http://kg2025.unitn.it/trentino#hasName> "Sentiero Bedollo - Brusago" .
+<http://localhost:8080/source/natural_attractions38> <http://kg2025.unitn.it/trentino#hasLatitude> "46.165" .
+
+<http://localhost:8080/source/natural_attractions39> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop103" .
+<http://localhost:8080/source/natural_attractions39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions39> <http://kg2025.unitn.it/trentino#hasName> "Torbiera del Vedes" .
+<http://localhost:8080/source/natural_attractions39> <http://kg2025.unitn.it/trentino#hasLatitude> "46.237503" .
+<http://localhost:8080/source/natural_attractions39> <http://kg2025.unitn.it/trentino#hasLongitude> "11.267382" .
+
+<http://localhost:8080/source/natural_attractions40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions40> <http://kg2025.unitn.it/trentino#hasLatitude> "46.179277" .
+<http://localhost:8080/source/natural_attractions40> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop2235" .
+<http://localhost:8080/source/natural_attractions40> <http://kg2025.unitn.it/trentino#hasLongitude> "11.32375" .
+<http://localhost:8080/source/natural_attractions40> <http://kg2025.unitn.it/trentino#hasName> "Lago delle Buse" .
+
+<http://localhost:8080/source/natural_attractions41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions41> <http://kg2025.unitn.it/trentino#hasName> "Biotopo Le Grave" .
+<http://localhost:8080/source/natural_attractions41> <http://kg2025.unitn.it/trentino#hasLongitude> "11.178523" .
+<http://localhost:8080/source/natural_attractions41> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop218" .
+<http://localhost:8080/source/natural_attractions41> <http://kg2025.unitn.it/trentino#hasLatitude> "46.12397" .
+
+<http://localhost:8080/source/natural_attractions42> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop179" .
+<http://localhost:8080/source/natural_attractions42> <http://kg2025.unitn.it/trentino#hasLongitude> "11.261389" .
+<http://localhost:8080/source/natural_attractions42> <http://kg2025.unitn.it/trentino#hasLatitude> "46.134444" .
+<http://localhost:8080/source/natural_attractions42> <http://kg2025.unitn.it/trentino#hasName> "Giro di Ceramonte" .
+<http://localhost:8080/source/natural_attractions42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+
+<http://localhost:8080/source/natural_attractions43> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop1814" .
+<http://localhost:8080/source/natural_attractions43> <http://kg2025.unitn.it/trentino#hasLatitude> "46.214783" .
+<http://localhost:8080/source/natural_attractions43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions43> <http://kg2025.unitn.it/trentino#hasName> "Roccolo del Sauch" .
+<http://localhost:8080/source/natural_attractions43> <http://kg2025.unitn.it/trentino#hasLongitude> "11.192523" .
+
+<http://localhost:8080/source/natural_attractions44> <http://kg2025.unitn.it/trentino#hasLatitude> "46.229167" .
+<http://localhost:8080/source/natural_attractions44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions44> <http://kg2025.unitn.it/trentino#hasLongitude> "11.297778" .
+<http://localhost:8080/source/natural_attractions44> <http://kg2025.unitn.it/trentino#hasName> "Sentiero del laghetto Vedes" .
+<http://localhost:8080/source/natural_attractions44> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop103" .
+
+<http://localhost:8080/source/natural_attractions45> <http://kg2025.unitn.it/trentino#hasLatitude> "46.3074061" .
+<http://localhost:8080/source/natural_attractions45> <http://kg2025.unitn.it/trentino#hasLongitude> "11.699201" .
+<http://localhost:8080/source/natural_attractions45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#NaturalAttraction> .
+<http://localhost:8080/source/natural_attractions45> <http://kg2025.unitn.it/trentino#hasNearbyBusStop> "bus_stop734" .
+<http://localhost:8080/source/natural_attractions45> <http://kg2025.unitn.it/trentino#hasName> "CENTRO VISITATORI DEL PARCO NATURALE DI PANEVEGGIO" .
+

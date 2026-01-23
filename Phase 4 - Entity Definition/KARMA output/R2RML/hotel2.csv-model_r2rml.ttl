@@ -1,0 +1,794 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1jflva33vx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "hotel2.csv" ;
+	km-dev:modelPublicationTime "1769190263933"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"City\"}],[{\"columnName\":\"Phone_number\"}],[{\"columnName\":\"Address\"}],[{\"columnName\":\"n_barpub\"}],[{\"columnName\":\"Name\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"Longitude\"}],[{\"columnName\":\"Latitude\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"City\"}],[{\"columnName\":\"Phone_number\"}],[{\"columnName\":\"Address\"}],[{\"columnName\":\"n_barpub\"}],[{\"columnName\":\"Name\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"Longitude\"}],[{\"columnName\":\"Latitude\"}]]" ;
+	km-dev:hasModelLabel "hotel2.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"id\",
+                        \"id\": [{\"columnName\": \"id\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Name\",
+                        \"id\": [{\"columnName\": \"Name\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Latitude\",
+                        \"id\": [{\"columnName\": \"Latitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Longitude\",
+                        \"id\": [{\"columnName\": \"Longitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Address\",
+                        \"id\": [{\"columnName\": \"Address\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"City\",
+                        \"id\": [{\"columnName\": \"City\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Phone_number\",
+                        \"id\": [{\"columnName\": \"Phone_number\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"n_barpub\",
+                        \"id\": [{\"columnName\": \"n_barpub\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://kg2025.unitn.it/trentino#Hotel\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://kg2025.unitn.it/trentino#Hotel1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasName\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasLatitude\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasLongitude\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Address\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasAddress\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Address\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Address\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Phone_number\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasPhoneNumber\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Phone_number\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Phone_number\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"n_barpub\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#Hotel\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasNearbyBarPubCount\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#Hotel/Hotel1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"n_barpub\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"n_barpub\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"City\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://kg2025.unitn.it/trentino#City\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://kg2025.unitn.it/trentino#City1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#City\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#City1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#City/City1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"City\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://kg2025.unitn.it/trentino#City1\",
+                    \"edgeId\": \"http://kg2025.unitn.it/trentino#locatedIn\",
+                    \"edgeTargetUri\": \"http://kg2025.unitn.it/trentino#City\",
+                    \"edgeSourceId\": \"http://kg2025.unitn.it/trentino#Hotel1\",
+                    \"edgeSourceUri\": \"http://kg2025.unitn.it/trentino#Hotel\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 a rr:TriplesMap .
+
+_:node1jflva33vx1 km-dev:hasTriplesMap km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx2 rr:tableName "hotel2.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasLogicalTable _:node1jflva33vx2 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:logicalTable _:node1jflva33vx2 ;
+	rr:subjectMap _:node1jflva33vx3 .
+
+_:node1jflva33vx1 km-dev:hasSubjectMap _:node1jflva33vx3 .
+
+_:node1jflva33vx3 km-dev:isPartOfMapping _:node1jflva33vx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://kg2025.unitn.it/trentino#Hotel1" ;
+	rr:class <http://kg2025.unitn.it/trentino#Hotel> ;
+	rr:template "{id}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_824ab82a-4008-440d-b658-44a13613eed9 rr:predicate <http://kg2025.unitn.it/trentino#locatedIn> .
+
+km-dev:RefObjectMap_8040f7a7-0dbe-4265-9727-92f099f5f367 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_033e170f-fb1f-473d-9bcb-25fa45c221c9 ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap km-dev:RefObjectMap_8040f7a7-0dbe-4265-9727-92f099f5f367 .
+
+km-dev:PredicateObjectMap_824ab82a-4008-440d-b658-44a13613eed9 rr:objectMap km-dev:RefObjectMap_8040f7a7-0dbe-4265-9727-92f099f5f367 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_824ab82a-4008-440d-b658-44a13613eed9 .
+
+km-dev:PredicateObjectMap_824ab82a-4008-440d-b658-44a13613eed9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_824ab82a-4008-440d-b658-44a13613eed9 .
+
+km-dev:PredicateObjectMap_4ccc8bfc-bc42-4b82-ba3a-0331f6819479 rr:predicate <http://kg2025.unitn.it/trentino#hasPhoneNumber> .
+
+_:node1jflva33vx4 rr:column "Phone_number" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap _:node1jflva33vx4 .
+
+km-dev:PredicateObjectMap_4ccc8bfc-bc42-4b82-ba3a-0331f6819479 rr:objectMap _:node1jflva33vx4 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_4ccc8bfc-bc42-4b82-ba3a-0331f6819479 .
+
+km-dev:PredicateObjectMap_4ccc8bfc-bc42-4b82-ba3a-0331f6819479 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4ccc8bfc-bc42-4b82-ba3a-0331f6819479 .
+
+km-dev:PredicateObjectMap_ad551fce-aaec-4db2-9b9c-e5f8b665c1f7 rr:predicate <http://kg2025.unitn.it/trentino#hasAddress> .
+
+_:node1jflva33vx5 rr:column "Address" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap _:node1jflva33vx5 .
+
+km-dev:PredicateObjectMap_ad551fce-aaec-4db2-9b9c-e5f8b665c1f7 rr:objectMap _:node1jflva33vx5 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_ad551fce-aaec-4db2-9b9c-e5f8b665c1f7 .
+
+km-dev:PredicateObjectMap_ad551fce-aaec-4db2-9b9c-e5f8b665c1f7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ad551fce-aaec-4db2-9b9c-e5f8b665c1f7 .
+
+km-dev:PredicateObjectMap_16ad8a37-2f25-4414-8844-92b141a33b15 rr:predicate <http://kg2025.unitn.it/trentino#hasNearbyBarPubCount> .
+
+_:node1jflva33vx6 rr:column "n_barpub" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap _:node1jflva33vx6 .
+
+km-dev:PredicateObjectMap_16ad8a37-2f25-4414-8844-92b141a33b15 rr:objectMap _:node1jflva33vx6 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_16ad8a37-2f25-4414-8844-92b141a33b15 .
+
+km-dev:PredicateObjectMap_16ad8a37-2f25-4414-8844-92b141a33b15 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_16ad8a37-2f25-4414-8844-92b141a33b15 .
+
+km-dev:PredicateObjectMap_8f315d23-b89f-4679-a64e-43fb09b8f5fd rr:predicate <http://kg2025.unitn.it/trentino#hasName> .
+
+_:node1jflva33vx7 rr:column "Name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap _:node1jflva33vx7 .
+
+km-dev:PredicateObjectMap_8f315d23-b89f-4679-a64e-43fb09b8f5fd rr:objectMap _:node1jflva33vx7 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_8f315d23-b89f-4679-a64e-43fb09b8f5fd .
+
+km-dev:PredicateObjectMap_8f315d23-b89f-4679-a64e-43fb09b8f5fd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8f315d23-b89f-4679-a64e-43fb09b8f5fd .
+
+km-dev:PredicateObjectMap_a3cf6906-c1ff-4fa7-8f18-8d83aaad3783 rr:predicate <http://kg2025.unitn.it/trentino#hasLongitude> .
+
+_:node1jflva33vx8 rr:column "Longitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap _:node1jflva33vx8 .
+
+km-dev:PredicateObjectMap_a3cf6906-c1ff-4fa7-8f18-8d83aaad3783 rr:objectMap _:node1jflva33vx8 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_a3cf6906-c1ff-4fa7-8f18-8d83aaad3783 .
+
+km-dev:PredicateObjectMap_a3cf6906-c1ff-4fa7-8f18-8d83aaad3783 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a3cf6906-c1ff-4fa7-8f18-8d83aaad3783 .
+
+km-dev:PredicateObjectMap_959a9ade-f785-4ce4-ba63-86838b809da4 rr:predicate <http://kg2025.unitn.it/trentino#hasLatitude> .
+
+_:node1jflva33vx9 rr:column "Latitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasObjectMap _:node1jflva33vx9 .
+
+km-dev:PredicateObjectMap_959a9ade-f785-4ce4-ba63-86838b809da4 rr:objectMap _:node1jflva33vx9 .
+
+km-dev:TriplesMap_cf1006ff-1983-42fd-a310-2ca56c6e7f94 rr:predicateObjectMap km-dev:PredicateObjectMap_959a9ade-f785-4ce4-ba63-86838b809da4 .
+
+km-dev:PredicateObjectMap_959a9ade-f785-4ce4-ba63-86838b809da4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_959a9ade-f785-4ce4-ba63-86838b809da4 .
+
+km-dev:TriplesMap_033e170f-fb1f-473d-9bcb-25fa45c221c9 a rr:TriplesMap .
+
+_:node1jflva33vx1 km-dev:hasTriplesMap km-dev:TriplesMap_033e170f-fb1f-473d-9bcb-25fa45c221c9 .
+
+km-dev:TriplesMap_033e170f-fb1f-473d-9bcb-25fa45c221c9 km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx10 rr:tableName "hotel2.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jflva33vx1 .
+
+_:node1jflva33vx1 km-dev:hasLogicalTable _:node1jflva33vx10 .
+
+km-dev:TriplesMap_033e170f-fb1f-473d-9bcb-25fa45c221c9 rr:logicalTable _:node1jflva33vx10 ;
+	rr:subjectMap _:node1jflva33vx11 .
+
+_:node1jflva33vx1 km-dev:hasSubjectMap _:node1jflva33vx11 .
+
+_:node1jflva33vx11 km-dev:isPartOfMapping _:node1jflva33vx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://kg2025.unitn.it/trentino#City1" ;
+	rr:class <http://kg2025.unitn.it/trentino#City> ;
+	rr:template "{City}" .

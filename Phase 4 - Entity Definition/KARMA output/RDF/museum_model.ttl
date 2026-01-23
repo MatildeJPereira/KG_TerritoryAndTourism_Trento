@@ -1,0 +1,363 @@
+<http://localhost:8080/source/museum0> <http://kg2025.unitn.it/trentino#hasName> "Museo Spazi Livio Rossi" .
+<http://localhost:8080/source/museum0> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0544859550582" .
+<http://localhost:8080/source/museum0> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 751251" .
+<http://localhost:8080/source/museum0> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Borgo%20Valsugana> .
+<http://localhost:8080/source/museum0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum0> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4591693878174" .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum0> <http://kg2025.unitn.it/trentino#hasAddress> "Corso Ausugum 55" .
+
+<http://localhost:8080/source/museum1> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. Val di Sella" .
+<http://localhost:8080/source/museum1> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Borgo%20Valsugana> .
+<http://localhost:8080/source/museum1> <http://kg2025.unitn.it/trentino#hasName> "Arte Sella" .
+<http://localhost:8080/source/museum1> <http://kg2025.unitn.it/trentino#hasLongitude> "11.3692188262939" .
+<http://localhost:8080/source/museum1> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 751251" .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum1> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0030431645636" .
+
+<http://localhost:8080/source/museum2> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0782618678408" .
+<http://localhost:8080/source/museum2> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 530322" .
+<http://localhost:8080/source/museum2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum2> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. Marenghi - Fraz. Canezza" .
+<http://localhost:8080/source/Pergine%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum2> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Pergine%20Valsugana> .
+<http://localhost:8080/source/museum2> <http://kg2025.unitn.it/trentino#hasLongitude> "11.277186870575" .
+<http://localhost:8080/source/museum2> <http://kg2025.unitn.it/trentino#hasName> "Museo degli attrezzi agricoli e artigianali" .
+
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum3> <http://kg2025.unitn.it/trentino#hasLatitude> "46.071533" .
+<http://localhost:8080/source/museum3> <http://kg2025.unitn.it/trentino#hasLongitude> "11.126296" .
+<http://localhost:8080/source/museum3> <http://kg2025.unitn.it/trentino#hasAddress> "Via Bernardo Clesio, 5" .
+<http://localhost:8080/source/museum3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum3> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 233770" .
+<http://localhost:8080/source/museum3> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum3> <http://kg2025.unitn.it/trentino#hasName> "Castello del Buonconsiglio" .
+
+<http://localhost:8080/source/museum4> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 800 397760" .
+<http://localhost:8080/source/museum4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum4> <http://kg2025.unitn.it/trentino#hasName> "Palazzo delle Albere" .
+<http://localhost:8080/source/museum4> <http://kg2025.unitn.it/trentino#hasLongitude> "11.113539" .
+<http://localhost:8080/source/museum4> <http://kg2025.unitn.it/trentino#hasAddress> "Via R. da Sanseverino, 45" .
+<http://localhost:8080/source/museum4> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum4> <http://kg2025.unitn.it/trentino#hasLatitude> "46.063177" .
+
+<http://localhost:8080/source/museum5> <http://kg2025.unitn.it/trentino#hasAddress> "Via Lidorno, 3" .
+<http://localhost:8080/source/museum5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum5> <http://kg2025.unitn.it/trentino#hasName> "Museo dell'Aeronautica G. Caproni" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum5> <http://kg2025.unitn.it/trentino#hasLongitude> "11.127047" .
+<http://localhost:8080/source/museum5> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 944888" .
+<http://localhost:8080/source/museum5> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum5> <http://kg2025.unitn.it/trentino#hasLatitude> "46.021268" .
+
+<http://localhost:8080/source/museum6> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum6> <http://kg2025.unitn.it/trentino#hasLatitude> "46.072694" .
+<http://localhost:8080/source/museum6> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 827248" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum6> <http://kg2025.unitn.it/trentino#hasAddress> "Via Brescia, 1" .
+<http://localhost:8080/source/museum6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum6> <http://kg2025.unitn.it/trentino#hasName> "Museo Storico delle Truppe Alpine" .
+<http://localhost:8080/source/museum6> <http://kg2025.unitn.it/trentino#hasLongitude> "11.112928" .
+
+<http://localhost:8080/source/museum7> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum7> <http://kg2025.unitn.it/trentino#hasLongitude> "11.123421" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum7> <http://kg2025.unitn.it/trentino#hasName> "Palazzo Roccabruna - Enoteca provinciale del Trentino" .
+<http://localhost:8080/source/museum7> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 887101" .
+<http://localhost:8080/source/museum7> <http://kg2025.unitn.it/trentino#hasLatitude> "46.066404" .
+<http://localhost:8080/source/museum7> <http://kg2025.unitn.it/trentino#hasAddress> "Via Ss. Trinità, 24" .
+
+<http://localhost:8080/source/museum8> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum8> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 270311" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum8> <http://kg2025.unitn.it/trentino#hasName> "MUSE - Museo delle Scienze" .
+<http://localhost:8080/source/museum8> <http://kg2025.unitn.it/trentino#hasLatitude> "46.062526" .
+<http://localhost:8080/source/museum8> <http://kg2025.unitn.it/trentino#hasLongitude> "11.113808" .
+<http://localhost:8080/source/museum8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum8> <http://kg2025.unitn.it/trentino#hasAddress> "Corso del Lavoro e della Scienza, 3" .
+
+<http://localhost:8080/source/museum9> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum9> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza Duomo, 18" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum9> <http://kg2025.unitn.it/trentino#hasLongitude> "11.121946" .
+<http://localhost:8080/source/museum9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum9> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 234419" .
+<http://localhost:8080/source/museum9> <http://kg2025.unitn.it/trentino#hasName> "Torre Civica" .
+<http://localhost:8080/source/museum9> <http://kg2025.unitn.it/trentino#hasLatitude> "46.067474" .
+
+<http://localhost:8080/source/museum10> <http://kg2025.unitn.it/trentino#hasLatitude> "46.067474" .
+<http://localhost:8080/source/museum10> <http://kg2025.unitn.it/trentino#hasName> "Museo Diocesano Tridentino" .
+<http://localhost:8080/source/museum10> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza Duomo, 18" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum10> <http://kg2025.unitn.it/trentino#hasLongitude> "11.121946" .
+<http://localhost:8080/source/museum10> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum10> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 234419" .
+
+<http://localhost:8080/source/museum11> <http://kg2025.unitn.it/trentino#hasName> "S.A.S.S. - Spazio Archeologico Sotterraneo del Sass" .
+<http://localhost:8080/source/museum11> <http://kg2025.unitn.it/trentino#hasLatitude> "46.069454" .
+<http://localhost:8080/source/museum11> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 492161" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum11> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum11> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza Cesare Battisti" .
+<http://localhost:8080/source/museum11> <http://kg2025.unitn.it/trentino#hasLongitude> "11.123448" .
+
+<http://localhost:8080/source/museum12> <http://kg2025.unitn.it/trentino#hasName> "Galleria Civica" .
+<http://localhost:8080/source/museum12> <http://kg2025.unitn.it/trentino#hasLatitude> "46.068418" .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum12> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum12> <http://kg2025.unitn.it/trentino#hasAddress> "Via Belenzani, 44" .
+<http://localhost:8080/source/museum12> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 985511; +39 800397760" .
+<http://localhost:8080/source/museum12> <http://kg2025.unitn.it/trentino#hasLongitude> "11.12128" .
+<http://localhost:8080/source/museum12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+
+<http://localhost:8080/source/museum13> <http://kg2025.unitn.it/trentino#hasLatitude> "46.069981" .
+<http://localhost:8080/source/museum13> <http://kg2025.unitn.it/trentino#hasName> "Museo della S.A.T. " .
+<http://localhost:8080/source/museum13> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 981871" .
+<http://localhost:8080/source/museum13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum13> <http://kg2025.unitn.it/trentino#hasAddress> "Via Giannantonio Manci, 57" .
+<http://localhost:8080/source/museum13> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/museum13> <http://kg2025.unitn.it/trentino#hasLongitude> "11.123334" .
+
+<http://localhost:8080/source/museum14> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Trento> .
+<http://localhost:8080/source/Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum14> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza di Piedicastello" .
+<http://localhost:8080/source/museum14> <http://kg2025.unitn.it/trentino#hasLongitude> "11.113518" .
+<http://localhost:8080/source/museum14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum14> <http://kg2025.unitn.it/trentino#hasName> "Le Gallerie" .
+<http://localhost:8080/source/museum14> <http://kg2025.unitn.it/trentino#hasLatitude> "46.071503" .
+<http://localhost:8080/source/museum14> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 0461 230482" .
+
+<http://localhost:8080/source/museum15> <http://kg2025.unitn.it/trentino#hasName> "Area Archeologica Acqua Fredda" .
+<http://localhost:8080/source/museum15> <http://kg2025.unitn.it/trentino#hasLongitude> "11.3213" .
+<http://localhost:8080/source/museum15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum15> <http://kg2025.unitn.it/trentino#hasAddress> "Acqua Fredda (c/o Passo del Redebus)" .
+<http://localhost:8080/source/museum15> <http://kg2025.unitn.it/trentino#hasLatitude> "46.13" .
+
+<http://localhost:8080/source/Albiano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum16> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Albiano> .
+<http://localhost:8080/source/museum16> <http://kg2025.unitn.it/trentino#hasLongitude> "11.1933" .
+<http://localhost:8080/source/museum16> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "0461 689799" .
+<http://localhost:8080/source/museum16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum16> <http://kg2025.unitn.it/trentino#hasLatitude> "46.1438" .
+<http://localhost:8080/source/museum16> <http://kg2025.unitn.it/trentino#hasAddress> "Via Don Luigi Albasini, 8" .
+<http://localhost:8080/source/museum16> <http://kg2025.unitn.it/trentino#hasName> "Nuovo Museo del Porfido" .
+
+<http://localhost:8080/source/museum17> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0986" .
+<http://localhost:8080/source/museum17> <http://kg2025.unitn.it/trentino#hasName> "Albergo Alla Corona - Museo del Turismo Trentino" .
+<http://localhost:8080/source/Baselga%20di%20Piné> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum17> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Baselga%20di%20Piné> .
+<http://localhost:8080/source/museum17> <http://kg2025.unitn.it/trentino#hasLongitude> "11.2358" .
+<http://localhost:8080/source/museum17> <http://kg2025.unitn.it/trentino#hasAddress> "Via D. Targa" .
+
+<http://localhost:8080/source/Roncegno%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum18> <http://kg2025.unitn.it/trentino#hasName> "Casa degli Spaventapasseri e Mulino Angeli" .
+<http://localhost:8080/source/museum18> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 764387" .
+<http://localhost:8080/source/museum18> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0327556154719" .
+<http://localhost:8080/source/museum18> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Roncegno%20Terme> .
+<http://localhost:8080/source/museum18> <http://kg2025.unitn.it/trentino#hasLongitude> "11.393358707428" .
+<http://localhost:8080/source/museum18> <http://kg2025.unitn.it/trentino#hasAddress> "Via San Silvestro, 2 - Fraz. Marter" .
+
+<http://localhost:8080/source/museum19> <http://kg2025.unitn.it/trentino#hasLatitude> "46.040888737897" .
+<http://localhost:8080/source/museum19> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza della Chiesa - Fraz. Olle" .
+<http://localhost:8080/source/museum19> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4640617370605" .
+<http://localhost:8080/source/museum19> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 754052" .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum19> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Borgo%20Valsugana> .
+<http://localhost:8080/source/museum19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum19> <http://kg2025.unitn.it/trentino#hasName> "Casa Andriollo - Soggetto Montagna Donna" .
+
+<http://localhost:8080/source/museum20> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 594382" .
+<http://localhost:8080/source/museum20> <http://kg2025.unitn.it/trentino#hasLongitude> "11.6071629524231" .
+<http://localhost:8080/source/museum20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum20> <http://kg2025.unitn.it/trentino#hasName> "Museo Casa De Gasperi" .
+<http://localhost:8080/source/Pieve%20Tesino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum20> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0689879491461" .
+<http://localhost:8080/source/museum20> <http://kg2025.unitn.it/trentino#hasAddress> "Via De Gasperi, 1" .
+<http://localhost:8080/source/museum20> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Pieve%20Tesino> .
+
+<http://localhost:8080/source/museum21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum21> <http://kg2025.unitn.it/trentino#hasAddress> "Corso Ausugum  " .
+<http://localhost:8080/source/museum21> <http://kg2025.unitn.it/trentino#hasName> "Sala Galvan" .
+<http://localhost:8080/source/museum21> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4608860015869" .
+<http://localhost:8080/source/museum21> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Borgo%20Valsugana> .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum21> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0556027737462" .
+
+<http://localhost:8080/source/museum22> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4563798904419" .
+<http://localhost:8080/source/museum22> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Borgo%20Valsugana> .
+<http://localhost:8080/source/museum22> <http://kg2025.unitn.it/trentino#hasName> "Museo Spazio Klien" .
+<http://localhost:8080/source/museum22> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza De Gasperi, 20" .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum22> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0532499827152" .
+<http://localhost:8080/source/museum22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum22> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 754052" .
+
+<http://localhost:8080/source/museum23> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 502390" .
+<http://localhost:8080/source/museum23> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza Garibaldi" .
+<http://localhost:8080/source/museum23> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0621245437785" .
+<http://localhost:8080/source/Pergine%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum23> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Pergine%20Valsugana> .
+<http://localhost:8080/source/museum23> <http://kg2025.unitn.it/trentino#hasName> "Museo della Scuola" .
+<http://localhost:8080/source/museum23> <http://kg2025.unitn.it/trentino#hasLongitude> "11.2390995025635" .
+
+<http://localhost:8080/source/Castello%20Tesino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum24> <http://kg2025.unitn.it/trentino#hasName> "Centro Permanente della Flora e della Fauna Alpina" .
+<http://localhost:8080/source/museum24> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. Le Parti" .
+<http://localhost:8080/source/museum24> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0563175258533" .
+<http://localhost:8080/source/museum24> <http://kg2025.unitn.it/trentino#hasLongitude> "11.6301870346069" .
+<http://localhost:8080/source/museum24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum24> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Castello%20Tesino> .
+
+<http://localhost:8080/source/museum25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum25> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0736474321482" .
+<http://localhost:8080/source/museum25> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (348) 6769967" .
+<http://localhost:8080/source/museum25> <http://kg2025.unitn.it/trentino#hasName> "Museo Etnografico di Telve di Sopra" .
+<http://localhost:8080/source/museum25> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4731597900391" .
+<http://localhost:8080/source/museum25> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Telve%20di%20Sopra> .
+<http://localhost:8080/source/museum25> <http://kg2025.unitn.it/trentino#hasAddress> "Via 3 Novembre, 6" .
+<http://localhost:8080/source/Telve%20di%20Sopra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+
+<http://localhost:8080/source/museum26> <http://kg2025.unitn.it/trentino#hasName> "Museo degli usi e tradizioni di Telve" .
+<http://localhost:8080/source/Telve%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum26> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza Vecchia  " .
+<http://localhost:8080/source/museum26> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Telve%20Valsugana> .
+<http://localhost:8080/source/museum26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum26> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4784812927246" .
+<http://localhost:8080/source/museum26> <http://kg2025.unitn.it/trentino#hasLatitude> "46.07000026644" .
+<http://localhost:8080/source/museum26> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 766714" .
+
+<http://localhost:8080/source/museum27> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0555878829789" .
+<http://localhost:8080/source/museum27> <http://kg2025.unitn.it/trentino#hasAddress> "Via S. Pietro, 4" .
+<http://localhost:8080/source/museum27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum27> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Cinte%20Tesino> .
+<http://localhost:8080/source/Cinte%20Tesino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum27> <http://kg2025.unitn.it/trentino#hasLongitude> "11.6155314445496" .
+<http://localhost:8080/source/museum27> <http://kg2025.unitn.it/trentino#hasName> "Museo del Moleta" .
+<http://localhost:8080/source/museum27> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (320) 8423151" .
+
+<http://localhost:8080/source/museum28> <http://kg2025.unitn.it/trentino#hasName> "Museo Pietra Viva" .
+<http://localhost:8080/source/museum28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/Sant%27Orsola%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum28> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Sant%27Orsola%20Terme> .
+<http://localhost:8080/source/museum28> <http://kg2025.unitn.it/trentino#hasLongitude> "11.2906408309937" .
+<http://localhost:8080/source/museum28> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. Stefani, 23" .
+<http://localhost:8080/source/museum28> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0955253651743" .
+<http://localhost:8080/source/museum28> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (339) 8159225" .
+
+<http://localhost:8080/source/museum29> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Roncegno%20Terme> .
+<http://localhost:8080/source/Roncegno%20Terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum29> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0529968283404" .
+<http://localhost:8080/source/museum29> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. S. Brigida" .
+<http://localhost:8080/source/museum29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum29> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4108037948608" .
+<http://localhost:8080/source/museum29> <http://kg2025.unitn.it/trentino#hasName> "Museo della Musica" .
+<http://localhost:8080/source/museum29> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 764387" .
+
+<http://localhost:8080/source/museum30> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/San%20Giovanni%20di%20Fassa> .
+<http://localhost:8080/source/San%20Giovanni%20di%20Fassa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum30> <http://kg2025.unitn.it/trentino#hasLongitude> "11.498823" .
+<http://localhost:8080/source/museum30> <http://kg2025.unitn.it/trentino#hasName> "Museo Ladino di Fassa" .
+<http://localhost:8080/source/museum30> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. S. Giovanni" .
+<http://localhost:8080/source/museum30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum30> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462) 760182" .
+<http://localhost:8080/source/museum30> <http://kg2025.unitn.it/trentino#hasLatitude> "46.120964" .
+
+<http://localhost:8080/source/museum31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum31> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4588689804077" .
+<http://localhost:8080/source/museum31> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 754052" .
+<http://localhost:8080/source/museum31> <http://kg2025.unitn.it/trentino#hasName> "Mostra permanente della Grande Guerra in Valsugana e sul Lagorai" .
+<http://localhost:8080/source/museum31> <http://kg2025.unitn.it/trentino#hasAddress> "Vicolo Sottochiesa, 11" .
+<http://localhost:8080/source/museum31> <http://kg2025.unitn.it/trentino#hasLatitude> "46.0536855544383" .
+<http://localhost:8080/source/museum31> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Borgo%20Valsugana> .
+<http://localhost:8080/source/Borgo%20Valsugana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+
+<http://localhost:8080/source/Caldonazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum32> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. Lochere" .
+<http://localhost:8080/source/museum32> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0461) 706737" .
+<http://localhost:8080/source/museum32> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Caldonazzo> .
+<http://localhost:8080/source/museum32> <http://kg2025.unitn.it/trentino#hasLatitude> "45.9889562110933" .
+<http://localhost:8080/source/museum32> <http://kg2025.unitn.it/trentino#hasLongitude> "11.3012194633484" .
+<http://localhost:8080/source/museum32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum32> <http://kg2025.unitn.it/trentino#hasName> "Garage Bike Museum" .
+
+<http://localhost:8080/source/museum33> <http://kg2025.unitn.it/trentino#hasName> "GALLERIA D'ARTE" .
+<http://localhost:8080/source/museum33> <http://kg2025.unitn.it/trentino#hasAddress> "Via Nazionale, 22" .
+<http://localhost:8080/source/museum33> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Ville%20di%20Fiemme> .
+<http://localhost:8080/source/museum33> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)231311 " .
+<http://localhost:8080/source/museum33> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4447927474976" .
+<http://localhost:8080/source/museum33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum33> <http://kg2025.unitn.it/trentino#hasLatitude> "46.2875139787032" .
+<http://localhost:8080/source/Ville%20di%20Fiemme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+
+<http://localhost:8080/source/museum34> <http://kg2025.unitn.it/trentino#hasName> "CENTRO D'ARTE CONTEMPORANEA" .
+<http://localhost:8080/source/Cavalese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum34> <http://kg2025.unitn.it/trentino#hasAddress> "Piazzetta Rizzoli 1" .
+<http://localhost:8080/source/museum34> <http://kg2025.unitn.it/trentino#hasLongitude> "11.458922624588" .
+<http://localhost:8080/source/museum34> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Cavalese> .
+<http://localhost:8080/source/museum34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum34> <http://kg2025.unitn.it/trentino#hasLatitude> "46.291858442216" .
+<http://localhost:8080/source/museum34> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)235416" .
+
+<http://localhost:8080/source/museum35> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Ville%20di%20Fiemme> .
+<http://localhost:8080/source/museum35> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (331)1250549" .
+<http://localhost:8080/source/museum35> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4390420913696" .
+<http://localhost:8080/source/museum35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum35> <http://kg2025.unitn.it/trentino#hasName> "MUSEO ETNOGRAFICO, CASA BEGNA" .
+<http://localhost:8080/source/museum35> <http://kg2025.unitn.it/trentino#hasAddress> "Via Leonardo Bonelli 2" .
+<http://localhost:8080/source/Ville%20di%20Fiemme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum35> <http://kg2025.unitn.it/trentino#hasLatitude> "46.2914729406149" .
+
+<http://localhost:8080/source/museum36> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Predazzo> .
+<http://localhost:8080/source/museum36> <http://kg2025.unitn.it/trentino#hasName> "MUSEO GEOLOGICO DELLE DOLOMITI" .
+<http://localhost:8080/source/Predazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum36> <http://kg2025.unitn.it/trentino#hasLatitude> "46.3127011418732" .
+<http://localhost:8080/source/museum36> <http://kg2025.unitn.it/trentino#hasLongitude> "11.6030430793762" .
+<http://localhost:8080/source/museum36> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)500366" .
+<http://localhost:8080/source/museum36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum36> <http://kg2025.unitn.it/trentino#hasAddress> "Piazza SS. Filippo e Giacomo 1" .
+
+<http://localhost:8080/source/museum37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum37> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)340365" .
+<http://localhost:8080/source/Cavalese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum37> <http://kg2025.unitn.it/trentino#hasLatitude> "46.2915804365265" .
+<http://localhost:8080/source/museum37> <http://kg2025.unitn.it/trentino#hasLongitude> "11.4596307277679" .
+<http://localhost:8080/source/museum37> <http://kg2025.unitn.it/trentino#hasAddress> "p.zza C.Battisti" .
+<http://localhost:8080/source/museum37> <http://kg2025.unitn.it/trentino#hasName> "MUSEO STORICO E PINACOTECA  MAGNIFICA COMUNITA'" .
+<http://localhost:8080/source/museum37> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Cavalese> .
+
+<http://localhost:8080/source/museum38> <http://kg2025.unitn.it/trentino#hasAddress> "Loc. Stava 17" .
+<http://localhost:8080/source/Tesero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum38> <http://kg2025.unitn.it/trentino#hasName> "CENTRO DOCUMENTAZIONE \"FONDAZIONE STAVA 1985\"ONLUS" .
+<http://localhost:8080/source/museum38> <http://kg2025.unitn.it/trentino#hasLongitude> "11.5015078" .
+<http://localhost:8080/source/museum38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum38> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Tesero> .
+<http://localhost:8080/source/museum38> <http://kg2025.unitn.it/trentino#hasLatitude> "46.3171012" .
+<http://localhost:8080/source/museum38> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)814060" .
+
+<http://localhost:8080/source/museum39> <http://kg2025.unitn.it/trentino#hasLatitude> "46.3134125591199" .
+<http://localhost:8080/source/museum39> <http://kg2025.unitn.it/trentino#hasAddress> "Baita Bocin" .
+<http://localhost:8080/source/Predazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum39> <http://kg2025.unitn.it/trentino#hasLongitude> "11.6620087623596" .
+<http://localhost:8080/source/museum39> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Predazzo> .
+<http://localhost:8080/source/museum39> <http://kg2025.unitn.it/trentino#hasName> "MUSEO ETNOGRAFICO DEL NONNO GUSTAVO" .
+<http://localhost:8080/source/museum39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum39> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)576114" .
+
+<http://localhost:8080/source/museum40> <http://kg2025.unitn.it/trentino#locatedIn> <http://localhost:8080/source/Predazzo> .
+<http://localhost:8080/source/museum40> <http://kg2025.unitn.it/trentino#hasName> "MUSEO DELLA SCUOLA ALPINA DELLA GUARDIA DI FINANZA" .
+<http://localhost:8080/source/Predazzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#City> .
+<http://localhost:8080/source/museum40> <http://kg2025.unitn.it/trentino#hasAddress> "Via Fiamme Gialle 8" .
+<http://localhost:8080/source/museum40> <http://kg2025.unitn.it/trentino#hasLatitude> "46.3087881817113" .
+<http://localhost:8080/source/museum40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kg2025.unitn.it/trentino#Museum> .
+<http://localhost:8080/source/museum40> <http://kg2025.unitn.it/trentino#hasPhoneNumber> "+39 (0462)501661" .
+<http://localhost:8080/source/museum40> <http://kg2025.unitn.it/trentino#hasLongitude> "11.6013693809509" .
+

@@ -1,0 +1,419 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1jflv92f7x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "natural_attractions2.csv" ;
+	km-dev:modelPublicationTime "1769190230501"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"n_bus\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"Name\"}],[{\"columnName\":\"Latitude\"}],[{\"columnName\":\"Longitude\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"n_bus\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"Name\"}],[{\"columnName\":\"Latitude\"}],[{\"columnName\":\"Longitude\"}]]" ;
+	km-dev:hasModelLabel "natural_attractions2.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://kg2025.unitn.it/trentino#NaturalAttraction\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://kg2025.unitn.it/trentino#NaturalAttraction1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#NaturalAttraction\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#NaturalAttraction1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#NaturalAttraction/NaturalAttraction1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#NaturalAttraction\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#NaturalAttraction1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasName\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#NaturalAttraction/NaturalAttraction1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#NaturalAttraction\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#NaturalAttraction1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasLatitude\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#NaturalAttraction/NaturalAttraction1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#NaturalAttraction\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#NaturalAttraction1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasLongitude\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#NaturalAttraction/NaturalAttraction1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"n_bus\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://kg2025.unitn.it/trentino#NaturalAttraction\",
+                    \"DomainId\": \"http://kg2025.unitn.it/trentino#NaturalAttraction1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://kg2025.unitn.it/trentino#hasNearbyBusStop\",
+                    \"DomainLabel\": \"http://kg2025.unitn.it/trentino#NaturalAttraction/NaturalAttraction1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"n_bus\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"n_bus\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 a rr:TriplesMap .
+
+_:node1jflv92f7x1 km-dev:hasTriplesMap km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x2 rr:tableName "natural_attractions2.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasLogicalTable _:node1jflv92f7x2 .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 rr:logicalTable _:node1jflv92f7x2 ;
+	rr:subjectMap _:node1jflv92f7x3 .
+
+_:node1jflv92f7x1 km-dev:hasSubjectMap _:node1jflv92f7x3 .
+
+_:node1jflv92f7x3 km-dev:isPartOfMapping _:node1jflv92f7x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://kg2025.unitn.it/trentino#NaturalAttraction1" ;
+	rr:class <http://kg2025.unitn.it/trentino#NaturalAttraction> ;
+	rr:template "{id}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_ff51fdf6-e094-4593-b291-e3579d2f0326 rr:predicate <http://kg2025.unitn.it/trentino#hasName> .
+
+_:node1jflv92f7x4 rr:column "Name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasObjectMap _:node1jflv92f7x4 .
+
+km-dev:PredicateObjectMap_ff51fdf6-e094-4593-b291-e3579d2f0326 rr:objectMap _:node1jflv92f7x4 .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 rr:predicateObjectMap km-dev:PredicateObjectMap_ff51fdf6-e094-4593-b291-e3579d2f0326 .
+
+km-dev:PredicateObjectMap_ff51fdf6-e094-4593-b291-e3579d2f0326 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ff51fdf6-e094-4593-b291-e3579d2f0326 .
+
+km-dev:PredicateObjectMap_7a38717a-6716-4b2b-8bc6-5271aacd1dfa rr:predicate <http://kg2025.unitn.it/trentino#hasNearbyBusStop> .
+
+_:node1jflv92f7x5 rr:column "n_bus" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasObjectMap _:node1jflv92f7x5 .
+
+km-dev:PredicateObjectMap_7a38717a-6716-4b2b-8bc6-5271aacd1dfa rr:objectMap _:node1jflv92f7x5 .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 rr:predicateObjectMap km-dev:PredicateObjectMap_7a38717a-6716-4b2b-8bc6-5271aacd1dfa .
+
+km-dev:PredicateObjectMap_7a38717a-6716-4b2b-8bc6-5271aacd1dfa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7a38717a-6716-4b2b-8bc6-5271aacd1dfa .
+
+km-dev:PredicateObjectMap_c2b7713b-e67f-481d-babd-f15824908576 rr:predicate <http://kg2025.unitn.it/trentino#hasLatitude> .
+
+_:node1jflv92f7x6 rr:column "Latitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasObjectMap _:node1jflv92f7x6 .
+
+km-dev:PredicateObjectMap_c2b7713b-e67f-481d-babd-f15824908576 rr:objectMap _:node1jflv92f7x6 .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 rr:predicateObjectMap km-dev:PredicateObjectMap_c2b7713b-e67f-481d-babd-f15824908576 .
+
+km-dev:PredicateObjectMap_c2b7713b-e67f-481d-babd-f15824908576 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c2b7713b-e67f-481d-babd-f15824908576 .
+
+km-dev:PredicateObjectMap_6fe19703-ce82-4b4b-9772-84040659c237 rr:predicate <http://kg2025.unitn.it/trentino#hasLongitude> .
+
+_:node1jflv92f7x7 rr:column "Longitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasObjectMap _:node1jflv92f7x7 .
+
+km-dev:PredicateObjectMap_6fe19703-ce82-4b4b-9772-84040659c237 rr:objectMap _:node1jflv92f7x7 .
+
+km-dev:TriplesMap_ad483f94-ff3d-45b1-99f9-e6d4d40bb359 rr:predicateObjectMap km-dev:PredicateObjectMap_6fe19703-ce82-4b4b-9772-84040659c237 .
+
+km-dev:PredicateObjectMap_6fe19703-ce82-4b4b-9772-84040659c237 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jflv92f7x1 .
+
+_:node1jflv92f7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6fe19703-ce82-4b4b-9772-84040659c237 .

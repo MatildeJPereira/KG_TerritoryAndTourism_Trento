@@ -1,14 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/tide2/ontologies/2026/0/untitled-ontology-4/"
-     xml:base="http://www.semanticweb.org/tide2/ontologies/2026/0/untitled-ontology-4/"
+<rdf:RDF xmlns="http://www.semanticweb.org/tide2/ontologies/2026/0/untitled-ontology-12/"
+     xml:base="http://www.semanticweb.org/tide2/ontologies/2026/0/untitled-ontology-12/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://kg2025.unitn.it/trentino2">
-        <owl:imports rdf:resource="http://kg2025.unitn.it/trentino"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://kg2025.unitn.it/trentino3"/>
     
 
 
@@ -25,20 +23,17 @@
 
     <!-- http://kg2025.unitn.it/trentino#locatedIn -->
 
-    <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#locatedIn">
-        <rdfs:domain rdf:resource="http://kg2025.unitn.it/trentino#Accommodation"/>
-        <rdfs:domain rdf:resource="http://kg2025.unitn.it/trentino#PointOfInterest"/>
-        <rdfs:range rdf:resource="http://kg2025.unitn.it/trentino#City"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://kg2025.unitn.it/trentino#locatedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://kg2025.unitn.it/trentino#relatedTo -->
 
-    <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#relatedTo">
-        <rdfs:domain rdf:resource="http://kg2025.unitn.it/trentino#Hotel"/>
-        <rdfs:range rdf:resource="http://kg2025.unitn.it/trentino#BarPub"/>
-    </rdf:Description>
+    <owl:ObjectProperty rdf:about="http://kg2025.unitn.it/trentino#relatedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -128,34 +123,60 @@
     
 
 
+    <!-- http://kg2025.unitn.it/trentino#BarPub -->
+
+    <owl:Class rdf:about="http://kg2025.unitn.it/trentino#BarPub"/>
+    
+
+
+    <!-- http://kg2025.unitn.it/trentino#BusStop -->
+
+    <owl:Class rdf:about="http://kg2025.unitn.it/trentino#BusStop"/>
+    
+
+
     <!-- http://kg2025.unitn.it/trentino#City -->
 
-    <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#City">
-        <rdfs:subClassOf rdf:resource="http://kg2025.unitn.it/trentino#Place"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://kg2025.unitn.it/trentino#City"/>
     
 
 
     <!-- http://kg2025.unitn.it/trentino#Hotel -->
 
-    <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#Hotel">
-        <rdfs:subClassOf rdf:resource="http://kg2025.unitn.it/trentino#Accommodation"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://kg2025.unitn.it/trentino#Hotel"/>
     
 
 
     <!-- http://kg2025.unitn.it/trentino#Museum -->
 
-    <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#Museum">
-        <rdfs:subClassOf rdf:resource="http://kg2025.unitn.it/trentino#PointOfInterest"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://kg2025.unitn.it/trentino#Museum"/>
     
 
 
     <!-- http://kg2025.unitn.it/trentino#NaturalAttraction -->
 
-    <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#NaturalAttraction">
-        <rdfs:subClassOf rdf:resource="http://kg2025.unitn.it/trentino#PointOfInterest"/>
+    <owl:Class rdf:about="http://kg2025.unitn.it/trentino#NaturalAttraction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#BarPub"/>
+            <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#BusStop"/>
+            <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#City"/>
+            <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#Hotel"/>
+            <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#Museum"/>
+            <rdf:Description rdf:about="http://kg2025.unitn.it/trentino#NaturalAttraction"/>
+        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 
