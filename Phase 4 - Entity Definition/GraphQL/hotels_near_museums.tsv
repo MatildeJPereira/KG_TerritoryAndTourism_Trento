@@ -1,0 +1,140 @@
+?hotel	?hotelName	?city
+<http://localhost:8080/source/hotel9>	"Villa Fontana ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel10>	"Europa **"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel11>	"Buonconsiglio ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel12>	"Le Blanc Hotel & Spa ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel13>	"Grand Hotel Trento ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel14>	"Ostello della Gioventù \"Giovane Europa\""	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel15>	"Everest ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel16>	"Karinhall ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel17>	"Accademia ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel18>	"Prada Sport *"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel19>	"Alpine Mugon ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel20>	"Venezia **"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel21>	"Nevada **"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel22>	"Sporting Trento ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel23>	"San Giorgio della Scala ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel28>	"Dolomiti Chalet Family hotel ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel29>	"Terme San Leonardo ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel31>	"Relais Villa Madruzzo ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel32>	"Relais Vecchio Maso ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel33>	"Vela ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel35>	"Zodiaco ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel37>	"Al Marinaio ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel38>	"Albermonaco ***?"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel39>	"America ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel41>	"Monte Bondone ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel44>	"Chalet Caminetto ***"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel45>	"Vason **"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel46>	"Montana ***?"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel48>	"Aquila d'Oro ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel49>	"Norge wellness resort ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel50>	"Best Western ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel52>	"Oasi *"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel53>	"Augustus **"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel54>	"Adige ****"	<http://localhost:8080/source/Trento>
+<http://localhost:8080/source/hotel1>	"ALBERGO VILLA ANITA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel4>	"R.T.A. MONTECHIARA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel6>	"ALBERGO RISTORANTE LA SCARDOLA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel7>	"HOTEL ALLA COMPARSA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel56>	"ALBERGO 2 CAMINI"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel61>	"ALBERGO SERRAIA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel64>	"OLIMPIC HOTEL"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel67>	"ALBERGO SAN GIORGIO"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel68>	"POSTA 1899 - RISTORANTE CA' DEI BOCI"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel69>	"HOTEL EDERA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel70>	"GARNI' LAURA"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel72>	"ALBERGO LAGORAI"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel75>	"HOTEL KRONE"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel76>	"Hotel Scoiattolo"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel78>	"GARNI' VILLA LORY"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel80>	"HOTEL 2 PINI"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel83>	"ALBERGO RITORANTE DUE LAGHI"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel85>	"HOTEL BELVEDERE WELLNESS & FAMILY"	<http://localhost:8080/source/Baselga%20di%20Piné>
+<http://localhost:8080/source/hotel187>	"VILLA WAIZ"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel195>	"VILLA ROSA"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel211>	"PARK HOTEL VILLA ANGIOLINA"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel237>	"PALACE HOTEL CASA DI SALUTE RAPHAEL"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel239>	"RONCEGNO"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel263>	"ALLA STAZIONE"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel269>	"SEMIRAMIS"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel278>	"VILLA FLORA"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel279>	"VITTORIA"	<http://localhost:8080/source/Roncegno%20Terme>
+<http://localhost:8080/source/hotel248>	"ALBERGO CIMA D'ASTA"	<http://localhost:8080/source/Pieve%20Tesino>
+<http://localhost:8080/source/hotel205>	"KAPRIOL"	<http://localhost:8080/source/Castello%20Tesino>
+<http://localhost:8080/source/hotel222>	"PIZZO DEGLI UCCELLI"	<http://localhost:8080/source/Castello%20Tesino>
+<http://localhost:8080/source/hotel225>	"ALPINA"	<http://localhost:8080/source/Castello%20Tesino>
+<http://localhost:8080/source/hotel285>	"BELLAVISTA"	<http://localhost:8080/source/Castello%20Tesino>
+<http://localhost:8080/source/hotel289>	"PASSO BROCON"	<http://localhost:8080/source/Castello%20Tesino>
+<http://localhost:8080/source/hotel186>	"ALPINO"	<http://localhost:8080/source/Sant%27Orsola%20Terme>
+<http://localhost:8080/source/hotel264>	"CENTRALE"	<http://localhost:8080/source/Sant%27Orsola%20Terme>
+<http://localhost:8080/source/hotel274>	"CORONA"	<http://localhost:8080/source/Sant%27Orsola%20Terme>
+<http://localhost:8080/source/hotel189>	"PAOLI HOTEL - ANTICA TRATTORIA ALLA VEDOVA"	<http://localhost:8080/source/Caldonazzo>
+<http://localhost:8080/source/hotel226>	"GILDA"	<http://localhost:8080/source/Caldonazzo>
+<http://localhost:8080/source/hotel229>	"ALLA TORRE"	<http://localhost:8080/source/Caldonazzo>
+<http://localhost:8080/source/hotel234>	"LIDO"	<http://localhost:8080/source/Caldonazzo>
+<http://localhost:8080/source/hotel275>	"DUE SPADE"	<http://localhost:8080/source/Caldonazzo>
+<http://localhost:8080/source/hotel284>	"MONTE CIMONE"	<http://localhost:8080/source/Caldonazzo>
+<http://localhost:8080/source/hotel100>	"ALBERGO EDY"	<http://localhost:8080/source/Ville%20di%20Fiemme>
+<http://localhost:8080/source/hotel110>	"CORONA"	<http://localhost:8080/source/Ville%20di%20Fiemme>
+<http://localhost:8080/source/hotel117>	"ALBERGO VERONZA"	<http://localhost:8080/source/Ville%20di%20Fiemme>
+<http://localhost:8080/source/hotel134>	"HOTEL MARIA"	<http://localhost:8080/source/Ville%20di%20Fiemme>
+<http://localhost:8080/source/hotel170>	"MASO GANZAIE"	<http://localhost:8080/source/Ville%20di%20Fiemme>
+<http://localhost:8080/source/hotel179>	"ALBERGO BELLARIA"	<http://localhost:8080/source/Ville%20di%20Fiemme>
+<http://localhost:8080/source/hotel87>	"HOTEL SALVANEL"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel89>	"STELLA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel90>	"PARK HOTEL AZALEA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel91>	"HOTEL LA ROCCIA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel92>	"PANORAMA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel96>	"GARNI' MANUELA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel106>	"ORSO GRIGIO"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel111>	"EXCELSIOR EL MOLIN"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel118>	"GARNI' LAURINO"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel119>	"LA STUA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel125>	"HOTEL GARDEN"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel132>	"PARK HOTEL SACRO CUORE"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel133>	"GOCCIA D'ORO"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel135>	"EUROTEL DEL CERMIS"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel139>	"SAN VALIER"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel148>	"COSTABELLA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel150>	"BELLA COSTA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel153>	"HOTEL BELLAVISTA - HBV WINEBAR"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel163>	"SPORTING CLUB"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel168>	"HOTEL LAGORAI RESORT & SPA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel172>	"DOLOMITI"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel175>	"GRÜNWALD"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel176>	"PARK HOTEL VILLA TRUNKA LUNKA"	<http://localhost:8080/source/Cavalese>
+<http://localhost:8080/source/hotel88>	"ALLA ROSA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel93>	"MONTANARA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel95>	"HOTEL MARGHERITA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel98>	"SPORT HOTEL SASS MAOR"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel99>	"HOTEL SAN CELSO"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel102>	"LIZ"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel103>	"HOTEL LA BICOCCA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel107>	"HOTEL CANADA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel109>	"HOTEL TORRETTA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel114>	"GARNI' BELVEDERE"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel115>	"MARIA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel121>	"HOTEL STELLA ALPINA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel127>	"HOTEL BELLAMONTE"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel128>	"HOTEL ANTICO"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel137>	"HOTEL SOLE - BELLAMONTE"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel144>	"VINELLA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel146>	"ANCORA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel149>	"HOTEL BELLARIA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel158>	"ZALUNA"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel164>	"TOURING"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel165>	"CIMON DOLOMITES HOTEL"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel178>	"TORRETTA (DIP)"	<http://localhost:8080/source/Predazzo>
+<http://localhost:8080/source/hotel108>	"TILDE"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel112>	"LUCIA"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel123>	"HOTEL ERICA"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel131>	"RIO STAVA FAMILY RESORT & SPA"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel138>	"BERG HOTEL MIRAMONTI"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel142>	"SCOIATTOLO"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel143>	"AL CERVO"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel145>	"HOTEL SHANDRANI (DIP)"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel155>	"HOTEL VILLA DI BOSCO"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel156>	"HOTEL SHANDRANI"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel162>	"POZZOLE"	<http://localhost:8080/source/Tesero>
+<http://localhost:8080/source/hotel173>	"SPORT HOTEL PAMPEAGO"	<http://localhost:8080/source/Tesero>
