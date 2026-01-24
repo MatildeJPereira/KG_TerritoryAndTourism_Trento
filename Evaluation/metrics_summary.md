@@ -1,0 +1,6 @@
+- Number of etypes defined: 11
+- Number of instantiated etypes: 4
+- Number of Museum entities: 41
+- Number of NaturalAttraction entities: 46
+- Number of Hotel entities: 295
+- Number of City entities: 54

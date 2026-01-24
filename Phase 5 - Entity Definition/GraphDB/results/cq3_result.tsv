@@ -1,4 +1,4 @@
-?attraction	?name	?busCount
+?attraction	?name	?bus
 <http://localhost:8080/source/natural_attractions0>	"Itinerario Riserva Naturalistica del Laghestel"	"bus_stop177"
 <http://localhost:8080/source/natural_attractions1>	"Giro Dos Alt - Cime Alte"	"bus_stop179"
 <http://localhost:8080/source/natural_attractions2>	"Sentiero di Segonzano"	"bus_stop237"

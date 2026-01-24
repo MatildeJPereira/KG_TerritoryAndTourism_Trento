@@ -1,0 +1,10 @@
+PREFIX : <http://kg2025.unitn.it/trentino#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?hotel ?hotelName ?city
+WHERE {
+  ?museum a :Museum ;
+          :locatedIn ?city .
+  ?hotel a :Hotel ;
+         :hasName ?hotelName ;
+         :locatedIn ?city .
+}

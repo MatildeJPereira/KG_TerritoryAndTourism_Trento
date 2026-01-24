@@ -1,0 +1,8 @@
+PREFIX : <http://kg2025.unitn.it/trentino#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?museum ?museumName
+WHERE {
+  ?museum a :Museum ;
+          :hasName ?museumName ;
+          :locatedIn <http://localhost:8080/source/Trento> .
+}
